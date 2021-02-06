@@ -1,6 +1,7 @@
 /*
     contoh penggunaan useCallBack + memo untuk optimalisasi rendering component,
-    component hanya akan di render jika ada perubahan, useCallBack dipanggil setiap eksekusi function
+    component hanya akan di render jika ada perubahan di suatu komponen, sedangkan komponen yang tidak berubah tidak akan di render
+    useCallBack dipanggil setiap eksekusi function
 */
 
 import React, {useState, useCallback} from 'react'
